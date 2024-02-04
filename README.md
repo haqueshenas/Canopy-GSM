@@ -13,11 +13,17 @@ When running the GSM code, vegetation pixels are categorized into a maximum of 2
 Haghshenas, A., & Emam, Y. (2020). Green-gradient based canopy segmentation: A multipurpose image mining model with potential use in crop phenotyping and canopy studies. Computers and Electronics in Agriculture, 178, 105740. doi:https://doi.org/10.1016/j.compag.2020.105740  
 
 
-## How to run?
+## How to run?   
+
+  **If you wish to run the Canopy GSM online, please visit:**   
+  https://codeocean.com/capsule/1652693/tree/v2   
+
+ Otherwise, for a local run, follow the steps below:   
  
 - Step 1: Download and unpack the "CanopyGSM" package.
-- Step 2: Copy and paste your own images into the subfolder "Images".
-- Step 3: Go back to the CanopyGSM directory and open the "main.m" file in Matlab. Run the code!
+- Step 2: In the main directory, make a subdirectory and rename it into "Images" (it is case sensitive).
+- Step 3: Copy and paste your own images into the "Images" subdirectory.
+- Step 4: Go back to the Canopy-GSM directory and open the "main.m" file in Matlab. Run the code!
           
 
    Note: 
@@ -78,7 +84,4 @@ For each image, a single .CSV file is made containing various types of GSM outpu
 (ii) Total GSM Exp.csv: this table represents a complete copy of coefficients, R^2, and RMSE of GSM exponential equations stored in all of the single .csv files (i.e. in the 15th to 22nd columns). This file may be useful for datamining approaches.
   
 (iii) Total GSM ST2.csv: the total outputs of GSM-ST2 of all single .csv files are collected in this table. The values of red and blue GSM curves (ST2 attributes, i.e. the data of 2nd and 4th columns in each single file) are transposed and stored in a single row.
-  The first 255 values in each row represent the data of the red curve (i.e. R_G1 to R_G255), and the second 255 values belong to the blue curve (i.e. B_G1 to B_G255).   
-
-  **If you wish to run the Canopy GSM online, plsease visit:**   
-  https://codeocean.com/capsule/1652693/tree/v2   
+  The first 255 values in each row represent the data of the red curve (i.e. R_G1 to R_G255), and the second 255 values belong to the blue curve (i.e. B_G1 to B_G255).  
