@@ -85,3 +85,10 @@ For each image, a single .CSV file is made containing various types of GSM outpu
   
 (iii) Total GSM ST2.csv: the total outputs of GSM-ST2 of all single .csv files are collected in this table. The values of red and blue GSM curves (ST2 attributes, i.e. the data of 2nd and 4th columns in each single file) are transposed and stored in a single row.
   The first 255 values in each row represent the data of the red curve (i.e. R_G1 to R_G255), and the second 255 values belong to the blue curve (i.e. B_G1 to B_G255).  
+
+  
+    
+-------
+
+Contact: Abbas Haghshenas  
+Email: haqueshenas@gmail.com  
