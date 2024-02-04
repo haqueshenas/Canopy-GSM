@@ -1,4 +1,4 @@
-# Canopy-GSM
+# Canopy GSM
 ## Version 2.0
 Efficient quantification of intricate shading patterns within 3D vegetation canopies can enhance our understanding of canopy functions and conditions. To quantitatively characterize shading patterns in ground-based images of crop canopies, we developed a simple image mining technique known as the Green-Gradient Based Canopy Segmentation Model (GSM). This model relies on relative variations in RGB triplets under different illuminations.
 
