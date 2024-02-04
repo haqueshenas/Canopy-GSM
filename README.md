@@ -21,9 +21,8 @@ Haghshenas, A., & Emam, Y. (2020). Green-gradient based canopy segmentation: A m
  Otherwise, for a local run, follow the steps below:   
  
 - Step 1: Download and unpack the Canopy-GSM package.
-- Step 2: In the main directory (i.e. "Canopy-GSM-main"), make a subdirectory and rename it into "Images" (it is case sensitive).
-- Step 3: Copy and paste your own images into the "Images" subdirectory.
-- Step 4: Go back to the Canopy-GSM-main directory and open the "main.m" file in Matlab. Run the code!
+- Step 2: In the main directory (i.e., "Canopy-GSM-main"), find the "Images" subdirectory (case-sensitive), and copy your images into it. By default, three sample images are provided. You can either use the sample images or replace them with your own images.   
+- Step 3: Go back to the Canopy-GSM-main directory and open the "main.m" file in Matlab. Run the code!
           
 
    Note: 
