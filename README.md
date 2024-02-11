@@ -1,5 +1,5 @@
 # Canopy GSM
-## Version 2.0
+## Version 2.1
 Efficient quantification of intricate shading patterns within 3D vegetation canopies can enhance our understanding of canopy functions and conditions. To quantitatively characterize shading patterns in ground-based images of crop canopies, we developed a simple image mining technique known as the Green-Gradient Based Canopy Segmentation Model (GSM). This model relies on relative variations in RGB triplets under different illuminations.
 
 When running the GSM code, vegetation pixels are categorized into a maximum of 255 groups based on their green levels. Subsequently, the mean red and mean blue levels of each group are calculated and plotted against the green levels. The resulting graph (i.e., the GSM graph) can be readily utilized for:
@@ -85,7 +85,7 @@ For each image, a single .CSV file is made containing various types of GSM outpu
 (iii) Total GSM ST2.csv: the total outputs of GSM-ST2 of all single .csv files are collected in this table. The values of red and blue GSM curves (ST2 attributes, i.e. the data of 2nd and 4th columns in each single file) are transposed and stored in a single row.
   The first 255 values in each row represent the data of the red curve (i.e. R_G1 to R_G255), and the second 255 values belong to the blue curve (i.e. B_G1 to B_G255).  
 
-  
+ (iv) Total GSM Num.csv: the total data for number of pixels in each green level (collected from the single .csv files).
     
 -------
 
