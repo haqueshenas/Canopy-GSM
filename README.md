@@ -16,7 +16,7 @@ Haghshenas, A., & Emam, Y. (2020). Green-gradient based canopy segmentation: A m
 ## How to run?   
 
   **If you wish to run the Canopy GSM online, please visit:**   
-  https://codeocean.com/capsule/1652693/tree/v2   
+  https://codeocean.com/capsule/1652693/tree/v2
 
  Otherwise, for a local run, follow the steps below:   
  
